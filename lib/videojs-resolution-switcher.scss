@@ -1,0 +1,36 @@
+.vjs-resolution-button {
+  &.vjs-hide-menu-button {
+    .vjs-menu-button {
+      display: none;
+    }
+  }
+  .vjs-menu-icon:before {
+    content: '\f110';
+    font-family: VideoJS;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.8em;
+    line-height: 1.67em;
+  }
+  .vjs-resolution-button-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    box-sizing: inherit;
+  }
+
+  &:hover {
+    .vjs-menu {
+      display: block !important;
+    }
+  }
+
+  &.clicked, &.clicked:hover {
+    .vjs-menu {
+      display: none !important;
+    }
+  }
+}
