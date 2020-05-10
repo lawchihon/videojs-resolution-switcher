@@ -22,15 +22,13 @@
     box-sizing: inherit;
   }
 
-  &:hover {
+  &.show-menu {
     .vjs-menu {
       display: block !important;
     }
   }
 
-  &.clicked, &.clicked:hover {
-    .vjs-menu {
-      display: none !important;
-    }
+  .vjs-menu {
+    display: none !important;
   }
 }
