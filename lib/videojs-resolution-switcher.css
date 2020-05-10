@@ -29,3 +29,12 @@
   text-transform: none;
   font-size: 1em;
 }
+
+.vjs-resolution-button:hover .vjs-menu {
+  display: block !important;
+}
+
+.vjs-resolution-button.clicked .vjs-menu,
+.vjs-resolution-button.clicked:hover .vjs-menu {
+  display: none !important;
+}
