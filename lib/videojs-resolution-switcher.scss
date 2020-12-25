@@ -20,6 +20,9 @@
     height: 100%;
     text-align: center;
     box-sizing: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   &.show-menu {
