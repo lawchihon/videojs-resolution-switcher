@@ -20,9 +20,9 @@
     height: 100%;
     text-align: center;
     box-sizing: inherit;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden;
+    line-height: 3;
+    text-overflow: ellipsis;
   }
 
   &.show-menu {

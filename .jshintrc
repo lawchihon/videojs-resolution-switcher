@@ -1,11 +1,13 @@
 {
-    "browser"  : true,
-    "curly": true,
-    "eqeqeq": true,
-    "quotmark" : "single",
-    "trailing" : true,
-    "undef"    : true,
-    "predef"   : [
-        "videojs"
-    ]
+  "browser"  : true,
+  "curly": true,
+  "eqeqeq": true,
+  "quotmark" : "single",
+  "trailing" : true,
+  "undef"    : true,
+  "node": true,
+  "predef"   : [
+    "videojs",
+    "define"
+  ]
 }
